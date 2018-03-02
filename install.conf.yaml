@@ -1,2 +1,19 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~']
+
 - link:
+        ~/.aliases:
+        ~/.bash_profile:
+        ~/.gitignore_global:
         ~/.vimrc:
+        ~/.aws/config:
+          path: aws/config
+        ~/.ssh/config:
+          path: ssh/config
+
+- shell:
+  - [mkdir -p ~/.tmp, Creating hidden temp dir for vim, ect.]
