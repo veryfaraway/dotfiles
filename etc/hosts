@@ -1,0 +1,112 @@
+# BEGIN hosts added by Pulse
+112.175.232.80   gate.coupang.net
+# END hosts added by Pulse
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost 
+
+10.211.220.11	ip-10-211-220-11.ap-northeast-2.compute.internal
+10.211.220.20	ip-10-211-220-20.ap-northeast-2.compute.internal
+10.211.220.22	ip-10-211-220-22.ap-northeast-2.compute.internal
+10.211.220.32	ip-10-211-220-32.ap-northeast-2.compute.internal
+10.211.220.73	ip-10-211-220-73.ap-northeast-2.compute.internal
+10.211.220.77	ip-10-211-220-77.ap-northeast-2.compute.internal
+10.211.220.90	ip-10-211-220-90.ap-northeast-2.compute.internal
+10.211.220.95	ip-10-211-220-95.ap-northeast-2.compute.internal
+10.211.220.105	ip-10-211-220-105.ap-northeast-2.compute.internal
+10.211.220.119	ip-10-211-220-119.ap-northeast-2.compute.internal
+10.211.220.121	ip-10-211-220-121.ap-northeast-2.compute.internal
+10.211.220.140	ip-10-211-220-140.ap-northeast-2.compute.internal
+10.211.220.147	ip-10-211-220-147.ap-northeast-2.compute.internal
+10.211.220.149	ip-10-211-220-149.ap-northeast-2.compute.internal
+10.211.220.184	ip-10-211-220-184.ap-northeast-2.compute.internal
+10.211.220.189	ip-10-211-220-189.ap-northeast-2.compute.internal
+10.211.220.210	ip-10-211-220-210.ap-northeast-2.compute.internal
+10.211.220.216	ip-10-211-220-216.ap-northeast-2.compute.internal
+10.211.220.238	ip-10-211-220-238.ap-northeast-2.compute.internal
+
+10.211.221.10	ip-10-211-221-10.ap-northeast-2.compute.internal
+10.211.221.18	ip-10-211-221-18.ap-northeast-2.compute.internal
+10.211.221.48	ip-10-211-221-48.ap-northeast-2.compute.internal
+10.211.221.49	ip-10-211-221-49.ap-northeast-2.compute.internal
+10.211.221.58	ip-10-211-221-58.ap-northeast-2.compute.internal
+10.211.221.65	ip-10-211-221-65.ap-northeast-2.compute.internal
+10.211.221.83	ip-10-211-221-83.ap-northeast-2.compute.internal
+10.211.221.84	ip-10-211-221-84.ap-northeast-2.compute.internal
+10.211.221.87	ip-10-211-221-87.ap-northeast-2.compute.internal
+10.211.221.92	ip-10-211-221-92.ap-northeast-2.compute.internal
+10.211.221.114	ip-10-211-221-114.ap-northeast-2.compute.internal
+10.211.221.135	ip-10-211-221-135.ap-northeast-2.compute.internal
+10.211.221.179	ip-10-211-221-179.ap-northeast-2.compute.internal
+
+10.211.222.9	ip-10-211-222-9.ap-northeast-2.compute.internal
+10.211.222.22	ip-10-211-222-22.ap-northeast-2.compute.internal
+10.211.222.58	ip-10-211-222-58.ap-northeast-2.compute.internal
+10.211.222.97	ip-10-211-222-97.ap-northeast-2.compute.internal
+10.211.222.98	ip-10-211-222-98.ap-northeast-2.compute.internal
+10.211.222.113	ip-10-211-222-113.ap-northeast-2.compute.internal
+10.211.222.115	ip-10-211-222-115.ap-northeast-2.compute.internal
+10.211.222.117	ip-10-211-222-117.ap-northeast-2.compute.internal
+10.211.222.146	ip-10-211-222-146.ap-northeast-2.compute.internal
+10.211.222.151	ip-10-211-222-151.ap-northeast-2.compute.internal
+10.211.222.154	ip-10-211-222-154.ap-northeast-2.compute.internal
+10.211.222.155	ip-10-211-222-155.ap-northeast-2.compute.internal
+10.211.222.165	ip-10-211-222-165.ap-northeast-2.compute.internal
+10.211.222.219	ip-10-211-222-219.ap-northeast-2.compute.internal
+10.211.222.232	ip-10-211-222-232.ap-northeast-2.compute.internal
+10.211.222.233	ip-10-211-222-233.ap-northeast-2.compute.internal
+10.211.222.245	ip-10-211-222-245.ap-northeast-2.compute.internal
+
+10.211.223.28	ip-10-211-223-28.ap-northeast-2.compute.internal
+10.211.223.45	ip-10-211-223-45.ap-northeast-2.compute.internal
+10.211.222.72	ip-10-211-222-72.ap-northeast-2.compute.internal
+10.211.223.53	ip-10-211-223-53.ap-northeast-2.compute.internal
+10.211.223.57	ip-10-211-223-57.ap-northeast-2.compute.internal
+10.211.223.63	ip-10-211-223-63.ap-northeast-2.compute.internal
+10.211.223.70	ip-10-211-223-70.ap-northeast-2.compute.internal
+10.211.223.105	ip-10-211-223-105.ap-northeast-2.compute.internal
+10.211.223.119	ip-10-211-223-119.ap-northeast-2.compute.internal
+10.211.223.159	ip-10-211-223-159.ap-northeast-2.compute.internal
+10.211.223.170	ip-10-211-223-170.ap-northeast-2.compute.internal
+10.211.223.178	ip-10-211-223-178.ap-northeast-2.compute.internal
+10.211.223.185	ip-10-211-223-185.ap-northeast-2.compute.internal
+10.211.223.194	ip-10-211-223-194.ap-northeast-2.compute.internal
+10.211.223.202	ip-10-211-223-202.ap-northeast-2.compute.internal
+10.211.223.205	ip-10-211-223-205.ap-northeast-2.compute.internal
+10.211.223.218	ip-10-211-223-218.ap-northeast-2.compute.internal
+10.211.223.253	ip-10-211-223-253.ap-northeast-2.compute.internal
+
+10.211.223.230	ip-10-211-223-230.ap-northeast-2.compute.internal
+10.211.223.50	ip-10-211-223-50.ap-northeast-2.compute.internal
+10.211.221.192	ip-10-211-221-192.ap-northeast-2.compute.internal
+10.211.223.111	ip-10-211-223-111.ap-northeast-2.compute.internal
+10.211.220.42	ip-10-211-220-42.ap-northeast-2.compute.internal
+10.211.223.237	ip-10-211-223-237.ap-northeast-2.compute.internal
+10.211.221.116	ip-10-211-221-116.ap-northeast-2.compute.internal
+10.211.221.110	ip-10-211-221-110.ap-northeast-2.compute.internal
+10.211.221.54	ip-10-211-221-54.ap-northeast-2.compute.internal
+10.211.221.206	ip-10-211-221-206.ap-northeast-2.compute.internal
+10.211.222.223	ip-10-211-222-223.ap-northeast-2.compute.internal
+10.211.220.224	ip-10-211-220-224.ap-northeast-2.compute.internal
+10.211.221.43	ip-10-211-221-43.ap-northeast-2.compute.internal
+10.211.221.3	ip-10-211-221-3.ap-northeast-2.compute.internal
+10.211.223.93	ip-10-211-223-93.ap-northeast-2.compute.internal
+10.211.222.158	ip-10-211-222-158.ap-northeast-2.compute.internal
+10.211.223.97	ip-10-211-223-97.ap-northeast-2.compute.internal
+10.211.220.172	ip-10-211-220-172.ap-northeast-2.compute.internal
+10.211.221.210	ip-10-211-221-210.ap-northeast-2.compute.internal
+10.211.221.71	ip-10-211-221-71.ap-northeast-2.compute.internal
+10.211.223.182	ip-10-211-223-182.ap-northeast-2.compute.internal
+10.211.221.61	ip-10-211-221-61.ap-northeast-2.compute.internal
+10.211.222.139	ip-10-211-222-139.ap-northeast-2.compute.internal
+10.211.223.196	ip-10-211-223-196.ap-northeast-2.compute.internal
+10.211.221.144	ip-10-211-221-144.ap-northeast-2.compute.internal
+10.211.221.170	ip-10-211-221-170.ap-northeast-2.compute.internal
+10.211.222.153	ip-10-211-222-153.ap-northeast-2.compute.internal
+10.211.221.159	ip-10-211-221-159.ap-northeast-2.compute.internal

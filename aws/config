@@ -1,0 +1,6 @@
+[default]
+region = ap-northeast-2
+[profile prod-coupang]
+region = ap-northeast-2
+[profile aws-dev]
+region = ap-northeast-1

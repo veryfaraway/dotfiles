@@ -1,0 +1,12 @@
+# Personal aliases
+alias so='source ~/.bash_profile'
+
+alias ls='ls -FG'
+alias l='ls -lh'
+alias ll='l -a'
+
+alias vi='/usr/local/bin/vim'
+alias say='say -v Daniel'
+
+# Aliases for AWS
+alias als='aws s3 ls --human-readable --summarize'
