@@ -1,8 +1,9 @@
-#export JAVA_HOME=$(/usr/libexec/java_home)
-#export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
-export JAVA_HOME=`/usr/libexec/java_home`
-export HADOOP_HOME='/Users/henry/Applications/hadoop'
-export HADOOP_CLASSPATH=$HADOOP_CLASSPATH:$HADOOP_HOME/share/hadoop/tools/lib/*
+#export HADOOP_HOME='/Users/henry/Applications/hadoop/'
+#export HADOOP_CLASSPATH=$HADOOP_CLASSPATH:${HADOOP_HOME}share/hadoop/tools/lib/*
+#export SCALA_HOME=/usr/local/opt/scala/idea
+export SCALA_HOME=/Users/henry/Applications/scala
+export GROOVY_HOME=/usr/local/opt/groovy/libexec
+#export SPARK_HOME=/usr/local/Cellar/apache-spark/2.3.1/libexec
 export SPARK_LOCAL_IP="127.0.0.1"
 
 # customize prompt
@@ -12,14 +13,16 @@ export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
 export PATH=$PATH:/Users/henry/Applications/Play/activator/bin
-export PATH=$PATH:$HADOOP_HOME/bin
+#export PATH=$PATH:$HADOOP_HOME/bin
 export PATH=$PATH:/Users/henry/Applications/bin
 
-export EDITOR='sl -w'
+export EDITOR='subl -w'
 
 export JEKYLL_GITHUB_TOKEN=b6fcc6e6e282d4011a83a06c9a8cdea5f07eb997
 
-export TEMP_DIR=~/.tmp
+export TEMP_DIR=/tmp
+#export JAVA_HOME=`/usr/libexec/java_home`
+export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk/Contents/Home'
 
 # Add bash aliases.
 if [ -f ~/.aliases ]; then
@@ -41,6 +44,10 @@ ezplus() {
 	/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin/java -jar /Applications/EzPlusForMac.app/Contents/Resources/Java/SHBLauncher.jar;
 	/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin/java -jar /Applications/EzPlusForMac.app/Contents/Resources/Java/SHBEzPlusMac.app/Contents/Resources/Java/SHBApp.jar;
 	cd -;
+}
+
+sshAddCoupang() {
+	ssh-add -K ~/.ssh/id_rsa_coupang
 }
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"

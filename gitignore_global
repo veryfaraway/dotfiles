@@ -1,0 +1,9 @@
+# for macOS
+.DS_Store
+
+# for IDE
+.idea/
+*.iml
+
+# etc
+.java-version

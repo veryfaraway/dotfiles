@@ -25,9 +25,17 @@ Host praha-test-emr
 Host wd
 	HostName 192.168.1.4
 	User root
+Host coupang.gitlab
+	HostName gitlab.coupang.net
+	PreferredAuthentications publickey
+	AddKeysToAgent yes
+	UseKeychain yes
+	IdentityFile ~/.ssh/id_rsa_coupang
 Host github.com
 	HostName github.com
 	User git
-	IdentityFile ~/.ssh/github_rsa.pub
+	AddKeysToAgent yes
+	UseKeychain yes
+	IdentityFile ~/.ssh/id_rsa
 Host *
 	User coupang

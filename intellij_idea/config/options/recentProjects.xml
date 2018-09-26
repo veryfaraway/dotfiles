@@ -1,0 +1,58 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/Sources/project/praha/image-hash-importer" />
+        <option value="$USER_HOME$/Sources/project/lib/recommendation-common" />
+        <option value="$USER_HOME$/Sources/project/praha/product-cbf-spark" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/Sources/project/praha/product-cbf-spark" />
+        <option value="$USER_HOME$/Sources/project/lib/recommendation-common" />
+        <option value="$USER_HOME$/Sources/project/praha/image-hash-importer" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/Sources/project/praha/image-hash-importer" />
+    <option name="pid" value="" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Sources/project/lib/recommendation-common">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-173.4548.28" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1520491628785" />
+              <option name="buildTimestamp" value="1517264918503" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Sources/project/praha/image-hash-importer">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-173.4548.28" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1520491628785" />
+              <option name="buildTimestamp" value="1517264918503" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Sources/project/praha/product-cbf-spark">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-173.4548.28" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1520491628785" />
+              <option name="buildTimestamp" value="1517264918503" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/Sources/project/praha" />
+  </component>
+</application>

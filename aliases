@@ -5,6 +5,8 @@ alias ls='ls -FG'
 alias l='ls -lh'
 alias ll='l -a'
 
+alias gop='cd /Users/henry/Sources/project'
+
 alias vi='/usr/local/bin/vim'
 alias say='say -v Daniel'
 
