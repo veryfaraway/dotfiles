@@ -1,10 +1,12 @@
 #export HADOOP_HOME='/Users/henry/Applications/hadoop/'
 #export HADOOP_CLASSPATH=$HADOOP_CLASSPATH:${HADOOP_HOME}share/hadoop/tools/lib/*
-#export SCALA_HOME=/usr/local/opt/scala/idea
-export SCALA_HOME=/Users/henry/Applications/scala
-export GROOVY_HOME=/usr/local/opt/groovy/libexec
-#export SPARK_HOME=/usr/local/Cellar/apache-spark/2.3.1/libexec
+export SCALA_HOME=/usr/local/opt/scala/libexec
 export SPARK_LOCAL_IP="127.0.0.1"
+export SPARK_HOME=/usr/local/opt/apache-spark/libexec
+export GROOVY_HOME=/usr/local/opt/groovy/libexec
+export GRADLE_HOME=/usr/local/opt/gradle/libexec
+export PATH="/usr/local/sbin:/Users/henry/Library/Python/3.7/bin:$PATH"
+export LC_ALL=en_US.UTF-8
 
 # customize prompt
 export PS1="[\u@MBPr15:\W]$ "
@@ -12,8 +14,7 @@ export PS1="[\u@MBPr15:\W]$ "
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
-export PATH=$PATH:/Users/henry/Applications/Play/activator/bin
-#export PATH=$PATH:$HADOOP_HOME/bin
+#export PATH=$PATH:/Users/henry/Applications/Play/activator/bin
 export PATH=$PATH:/Users/henry/Applications/bin
 
 export EDITOR='subl -w'
@@ -21,8 +22,7 @@ export EDITOR='subl -w'
 export JEKYLL_GITHUB_TOKEN=b6fcc6e6e282d4011a83a06c9a8cdea5f07eb997
 
 export TEMP_DIR=/tmp
-#export JAVA_HOME=`/usr/libexec/java_home`
-export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk/Contents/Home'
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 
 # Add bash aliases.
 if [ -f ~/.aliases ]; then
@@ -51,3 +51,4 @@ sshAddCoupang() {
 }
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+export PATH="/usr/local/sbin:$PATH"
