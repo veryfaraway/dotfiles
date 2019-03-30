@@ -10,5 +10,7 @@ alias gop='cd /Users/henry/Sources/project'
 alias vi='/usr/local/bin/vim'
 alias say='say -v Daniel'
 
+alias gradle=gw
+
 # Aliases for AWS
 alias als='aws s3 ls --human-readable --summarize'

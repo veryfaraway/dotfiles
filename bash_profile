@@ -34,8 +34,11 @@ complete -C aws_completer aws
 
 cd() { builtin cd "$@" && ls; }
 
+#export METASTORE="bigdata-adhoc-presto.coupang.net"
+export METASTORE="internal-bdp-presto-zeppelin-1087955549.ap-northeast-2.elb.amazonaws.com"
+
 presto() {
-	~/Applications/presto/presto-cli.jar --server bigdata-adhoc-presto.coupang.net:8889 --catalog hive --schema default
+	~/Applications/presto/presto-cli.jar --server ${METASTORE}:8889 --catalog hive --schema default
 }
 
 ezplus() { 
