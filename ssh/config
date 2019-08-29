@@ -3,11 +3,23 @@ Host aws-gw
 	User hanseop.jung
 Host search-prod01
 	HostName 10.10.181.76
-	ProxyCommand ssh -q -W %h:%p gateway
+	ProxyCommand ssh -q -W %h:%p aws-gw
 Host dashboard
 	HostName 10.211.98.160
 	User ubuntu
 	ProxyCommand ssh aws-gw nc %h %p %r
+Host search-prod-ci
+	HostName 10.211.114.216
+	ProxyJump aws-gw
+	User hanseop.jung
+Host search-prod-ci-slave2
+	HostName 10.211.114.75 
+	ProxyJump aws-gw
+	User hanseop.jung
+Host search-prod-ci-slave1
+	HostName 10.211.114.251
+	ProxyJump aws-gw
+	User hanseop.jung
 Host praha-prod-ci
 	HostName 10.211.98.108
 	User coupang
@@ -31,6 +43,13 @@ Host coupang.gitlab
 	AddKeysToAgent yes
 	UseKeychain yes
 	IdentityFile ~/.ssh/id_rsa_coupang
+Host coupang.github
+	HostName github.coupang.net
+	User hanseop-jung
+	PreferredAuthentications publickey
+	AddKeysToAgent yes
+	UseKeychain yes
+	IdentityFile ~/.ssh/id_rsa_coupang_github
 Host github.com
 	HostName github.com
 	User git

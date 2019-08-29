@@ -5,7 +5,7 @@ export SPARK_LOCAL_IP="127.0.0.1"
 export SPARK_HOME=/usr/local/opt/apache-spark/libexec
 export GROOVY_HOME=/usr/local/opt/groovy/libexec
 export GRADLE_HOME=/usr/local/opt/gradle/libexec
-export PATH="/usr/local/sbin:/Users/henry/Library/Python/3.7/bin:$PATH"
+export PATH="/usr/local/sbin:/Users/${USER}/Library/Python/3.7/bin:$PATH"
 export LC_ALL=en_US.UTF-8
 
 # customize prompt
@@ -13,16 +13,17 @@ export PS1="[\u@MBPr15:\W]$ "
 
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 
 #export PATH=$PATH:/Users/henry/Applications/Play/activator/bin
-export PATH=$PATH:/Users/henry/Applications/bin
+export PATH="$PATH:/Users/${USER}/Applications/bin"
+export PATH="/usr/local/sbin:$PATH"
 
 export EDITOR='subl -w'
 
 export JEKYLL_GITHUB_TOKEN=b6fcc6e6e282d4011a83a06c9a8cdea5f07eb997
 
 export TEMP_DIR=/tmp
-export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 
 # Add bash aliases.
 if [ -f ~/.aliases ]; then
@@ -51,7 +52,9 @@ ezplus() {
 
 sshAddCoupang() {
 	ssh-add -K ~/.ssh/id_rsa_coupang
+	ssh-add	-K ~/.ssh/id_rsa_coupang_github
+	ssh-add	-K ~/.ssh/id_rsa
 }
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
-export PATH="/usr/local/sbin:$PATH"
+eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"

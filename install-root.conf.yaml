@@ -6,5 +6,5 @@
 - clean: ['~']
 
 - link:
-        etc/hosts:
+        /etc/hosts:
           path: etc/hosts

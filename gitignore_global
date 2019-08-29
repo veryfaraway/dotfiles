@@ -1,6 +1,9 @@
 # for macOS
 .DS_Store
 
+# for java
+*.hprof
+
 # for IDE
 .idea/
 *.iml
