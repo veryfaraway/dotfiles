@@ -1,11 +1,14 @@
 #export HADOOP_HOME='/Users/henry/Applications/hadoop/'
 #export HADOOP_CLASSPATH=$HADOOP_CLASSPATH:${HADOOP_HOME}share/hadoop/tools/lib/*
-export SCALA_HOME=/usr/local/opt/scala/libexec
+#export SCALA_HOME=/usr/local/opt/scala/libexec
+export SCALA_HOME=/usr/local/opt/scala/idea
 export SPARK_LOCAL_IP="127.0.0.1"
 export SPARK_HOME=/usr/local/opt/apache-spark/libexec
 export GROOVY_HOME=/usr/local/opt/groovy/libexec
 export GRADLE_HOME=/usr/local/opt/gradle/libexec
 export PATH="/usr/local/sbin:/Users/${USER}/Library/Python/3.7/bin:$PATH"
+export GEM_HOME=~/.gem
+export GEM_PATH=~/.gem
 export LC_ALL=en_US.UTF-8
 
 # customize prompt
@@ -18,6 +21,7 @@ export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 #export PATH=$PATH:/Users/henry/Applications/Play/activator/bin
 export PATH="$PATH:/Users/${USER}/Applications/bin"
 export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/opt/ruby/bin:$PATH"
 
 export EDITOR='subl -w'
 

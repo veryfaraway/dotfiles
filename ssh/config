@@ -1,6 +1,10 @@
 Host aws-gw
 	HostName aws-gw.coupang.net
 	User hanseop.jung
+Host wlp-ci
+	HostName 10.211.216.240
+	ProxyJump aws-gw
+	User hanseop.jung	
 Host search-prod01
 	HostName 10.10.181.76
 	ProxyCommand ssh -q -W %h:%p aws-gw
